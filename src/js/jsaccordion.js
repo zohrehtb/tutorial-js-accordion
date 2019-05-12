@@ -9,9 +9,9 @@ function JSAccordion(elementOrSelector) {
 
         var acc_li , acc_ul , acc_header , acc_body;
 
-        acc_ul = this.targetElement.querySelector("ul");
+        acc_ul = this.targetElement.querySelector("ul.list");
 
-        acc_li = this.targetElement.querySelectorAll("li");
+        acc_li = this.targetElement.querySelectorAll("li.list-item");
         acc_header = this.targetElement.querySelectorAll("div.header");
         acc_body = this.targetElement.querySelectorAll("div.body");
 /*
