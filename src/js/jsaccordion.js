@@ -14,8 +14,6 @@ function JSAccordion(elementOrSelector) {
         acc_li = this.targetElement.querySelectorAll("li");
         acc_header = this.targetElement.querySelectorAll("div.header");
         acc_body = this.targetElement.querySelectorAll("div.body");
-        acc_p = this.targetElement.querySelectorAll("p");
-
 /*
         console.log(acc_ul);
 */
@@ -35,9 +33,6 @@ function JSAccordion(elementOrSelector) {
             elemnet.classList.add("jsac-body");
         });
 
-        acc_p.forEach(function (elemnet) {
-            elemnet.classList.add("jsac-p");
-        });
         
     };
 
