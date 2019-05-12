@@ -7,7 +7,7 @@ function JSAccordion(elementOrSelector) {
     //  define public methods
     this.init = function() {
 
-        var acc_li , acc_ul , acc_header , acc_body , acc_p;
+        var acc_li , acc_ul , acc_header , acc_body;
 
         acc_ul = this.targetElement.querySelector("ul");
 
