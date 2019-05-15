@@ -7,29 +7,29 @@ function JSAccordion(elementOrSelector) {
     //  define public methods
     this.init = function() {
 
-        var acc_li , acc_ul , acc_header , acc_body;
+        var accordionLi , accordionUl , accordionHeader , accordionBody;
 
-        acc_ul = this.targetElement.querySelector("ul.list");
+        accordionUl = this.targetElement.querySelector("ul.list");
 
-        acc_li = this.targetElement.querySelectorAll("li.list-item");
-        acc_header = this.targetElement.querySelectorAll("div.header");
-        acc_body = this.targetElement.querySelectorAll("div.body");
+        accordionLi = this.targetElement.querySelectorAll("li.list-item");
+        accordionHeader = this.targetElement.querySelectorAll("div.header");
+        accordionBody = this.targetElement.querySelectorAll("div.body");
 /*
         console.log(acc_ul);
 */
-        
-        acc_ul.classList.add("jsacc-list");
+
+        accordionUl.classList.add("jsacc-list");
 
 
-        acc_li.forEach(function (elemnet) {
+        accordionLi.forEach(function (elemnet) {
             elemnet.classList.add("jsac-list-item");
         });
 
-        acc_header.forEach(function (elemnet) {
+        accordionHeader.forEach(function (elemnet) {
             elemnet.classList.add("jsac-header");
         });
 
-        acc_body.forEach(function (elemnet) {
+        accordionBody.forEach(function (elemnet) {
             elemnet.classList.add("jsac-body");
         });
 

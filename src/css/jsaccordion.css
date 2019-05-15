@@ -1,0 +1,8 @@
+
+.expanded .jsac-body{
+    display: block;
+}
+
+.collapsed .jsac-body {
+    display: none;
+}
